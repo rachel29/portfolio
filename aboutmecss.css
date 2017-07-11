@@ -1,14 +1,39 @@
+body {
+  background: url(lights.jpg)pink;
+}
 p {
   text-style: Garamond;
 }
-
 h1 {
   color : purple;
-  text align : center;
+  text-align: center;
+  font-size: 300%;
 }
-
 h3 {
   color : blue;
 }
-
-
+h1 {
+  border-style : double;
+  border-width : medium;
+  border-color : pink;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #red;
+}
+li {
+    float: justify;
+}
+li a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #6DA7F3;
+}
