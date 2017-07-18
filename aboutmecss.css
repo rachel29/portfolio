@@ -1,28 +1,21 @@
-body {
-  background-image: url(background.jpg);
-}
 p {
   text-style: Garamond;
 }
 h1 {
-  color : purple;
+  color : black;
   text-align: center;
   font-size: 300%;
 }
 h3 {
-  color : blue;
+  color : #D94AE5;
 }
 h1 {
   border-style : double;
   border-width : medium;
-  border-color : pink;
+  border-color : #D94AE5;
 }
-li a {
-  display:block;
-    color: blue;
-    text-align: center;
-    padding: 14px 16px;
-}
-li a:hover {
-    background-color: #6DA7F3;
+body {
+  background-size: 100%;
+  background-image: url("image.jpeg");
+  background-repeat: no-repeat;
 }
